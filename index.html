@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Garret!!!</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./public/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="./public/css/slick-theme.css">
+    <script src="./public/js/jquery.js" type="text/javascript"></script>
+
+    <!-- Add fancyBox -->
+    <<script type="text/javascript" src="./public/js/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="./public/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+</head>
+<body>
+    <div class="all">
+        <div class="wrapper">
+            <header>
+                <div class="header-absolute">
+                    <div class="content">
+                        <div class="header-top">
+                            <div class="header-top__logo">
+                                <img src="./public/img/logo.png" alt="logo">
+                            </div>
+                            <div class="header-top_right">
+                                <div class="header-top_right__site-info site-info">
+                                    <div class="site-info_phone">
+                                        <a class="link" href="tel:+380487022049">+38 (048) <span>702-20-49</span></a>
+                                    </div>
+                                    <div class="site-info_email">
+                                        <a class="link" href="mailto:info@garrethome.com.ua">info@garrethome.com.ua</a>
+                                    </div>
+                                </div>
+                                <button class="btn header-top_right__feedback js-feedback-btn">Бесплатная консультация</button>
+                            </div>
+                        </div>
+
+                        <div class="mobile-menu">
+                            <button class="mobile-menu btn" id="js-mobile-menu">Меню</button>
+                            <div class="header-navigation header-navigation-mobile">
+                                <nav class="nav">
+                                    <ul class="nav-items">
+                                        <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-about">О нас</a></li>
+                                        <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-solution">Решения для вашего дома</a></li>
+                                        <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-solution-individuality">Индивидуальный подход</a></li>
+                                        <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-benefits">Преимущества</a></li>
+                                        <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-last-projects">Наши последние работы</a></li>
+                                        <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-partners">Наши партнеры</a></li>
+                                        <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-contacts">Как нас найти</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                        <div class="header-navigation">
+                            <nav class="nav">
+                                <ul class="nav-items">
+                                    <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-about">О нас</a></li>
+                                    <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-solution">Решения для вашего дома</a></li>
+                                    <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-solution-individuality">Индивидуальный подход</a></li>
+                                    <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-benefits">Преимущества</a></li>
+                                    <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-last-projects">Наши последние работы</a></li>
+                                    <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-partners">Наши партнеры</a></li>
+                                    <li class="nav-items__item"><a href="#" class="nav-items__item-link link link-to to-contacts">Как нас найти</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="header-bottom">
+                        <h1 class="header-bottom__title">
+                            <span>Интерьер-салон «Garret»</span> <br /> - это больше чем салон. <br>
+                            Это первое в Украине дизайн-пространство.
+                        </h1>
+
+                        <button class="btn" id="js-see-album">Фотографии альбома</button>
+                    </div>
+                </div>
+
+                <div class="header-carousel single-item">
+                    <img src="public/img/header-bg.jpg" alt="">
+                    <img src="public/img/header-bg.jpg" alt="">
+                    <img src="public/img/header-bg.jpg" alt="">
+                </div>
+            </header>
+            <div class="modal-album">
+                <div class="album-item">
+                    <button class="modal-success__close" id="js_close"></button>
+                    <div class="slider-for">
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                    </div>
+                    <div class="slider-nav">
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                        <div><img src="public/img/header-bg.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-us">
+                <div class="content">
+                    <h2 class="about-title">Немного <br> о нас</h2>
+                    <div class="about-us__items">
+                        <div class="about-us__items-item about-us__items-item-1">
+                            <div class="item-icon item-icon-1"></div>
+                            <div class="item-text">
+                                <span>На рынке <br> с 2001 года</span>
+                            </div>
+                        </div>
+                        <div class="about-us__items-item about-us__items-item-2">
+                            <div class="item-icon item-icon-2"></div>
+                            <div class="item-text">
+                                <span>Команда профессиональных архитекторов и декораторов</span>
+                            </div>
+                        </div>
+                        <div class="about-us__items-item about-us__items-item-3">
+                            <div class="item-icon item-icon-3"></div>
+                            <div class="item-text">
+                                <span>Менеджеры с опытом работы более 10 лет</span>
+                            </div>
+                        </div>
+                        <div class="about-us__items-item about-us__items-item-4">
+                            <div class="item-icon item-icon-4"></div>
+                            <div class="item-text">
+                                <span>Итальянская мебель, свет, декор и текстиль от ведущих производи</span>
+                            </div>
+                        </div>
+                        <div class="about-us__items-item about-us__items-item-5">
+                            <div class="item-icon item-icon-5"></div>
+                            <div class="item-text">
+                                <span>Салон-магазин с вариантами мебельных экспозиций</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="solution">
+                <div class="content">
+                    <h2>Комплексное решение <br> для вашего дома</h2>
+
+                    <div class="solution-sofa solution__block">
+                        <div class="solution-number solution-number__sofa right-number"><span>01.</span></div>
+                        <div class="solution-photo">
+                            <img src="./public/img/empty.jpg" alt="">
+                            <div class="solution-sofa-items">
+                                <div class="solution-sofa-items__item">
+                                    <a href="public/img/loft.jpg" class="solution-sofa__link fancybox" rel="group">
+                                        <img src="public/img/loft.jpg" alt="">
+                                        <span class="solution-sofa-items__item-title">Лофт</span>
+                                    </a>
+                                </div>
+                                <div class="solution-sofa-items__item">
+                                    <a href="public/img/modern.jpg" class="solution-sofa__link fancybox" rel="group">
+                                        <img src="public/img/modern.jpg" alt="">
+                                        <span class="solution-sofa-items__item-title">Модерн</span>
+                                    </a>
+                                </div>
+                                <div class="solution-sofa-items__item">
+                                    <a href="public/img/art-deco.jpg" class="solution-sofa__link fancybox" rel="group">
+                                        <img src="public/img/art-deco.jpg" alt="">
+                                        <span class="solution-sofa-items__item-title">Арт-Деко</span>
+                                    </a>
+                                </div>
+                                <div class="solution-sofa-items__item">
+                                    <a href="public/img/classic.jpg" class="solution-sofa__link fancybox" rel="group">
+                                        <img src="public/img/classic.jpg" alt="">
+                                        <span class="solution-sofa-items__item-title">Класика</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="solution-text-block">
+                            <div class="solution-text-block__title"><h3>Мебель</h3></div>
+                            <div class="solution-text-block__description"><span>В нашем салоне вы найдете мебель европейских производителей в любом стиле и необходимой комплектации.</span></div>
+                        </div>
+                    </div>
+                    <div class="solution-saving solution__block">
+                        <div class="solution-number solution-number__saving left-number"><span>02.</span></div>
+                        <div class="solution-text-block">
+                            <div class="solution-text-block__title"><h3>Эргономика вашего пространства</h3></div>
+                            <div class="solution-text-block__description"><span>Дизайнеры нашего салона считают, что самое важное при создании интерьера - это схема Вашей жизни: где сидим, куда смотрим, чем наслаждаемся, контроль пространства и эргономика. При этом очень важно качество дивана, пропорции и дизайн кухни, экологичность материалов, наличие кофейного столика и удобство кровати. Эргономика — это удобство, прочность, красота.</span></div>
+                        </div>
+                        <div class="solution-photo"><img src="./public/img/saving.jpg" alt=""></div>
+                    </div>
+                    <div class="solution-individuality solution__block">
+                        <div class="solution-number solution-number__individuality right-number"><span>03.</span></div>
+                        <div class="solution-photo"><img src="./public/img/individuality.jpg" alt=""></div>
+                        <div class="solution-text-block">
+                            <div class="solution-text-block__title"><h3>Индивидуальный подход</h3></div>
+                            <div class="solution-text-block__description"><span>За Вашим проектом закреплен менеджер, он ответит на все Ваши вопросы и держит ход проекта под контролем чтобы мы воплотили в проекте все ваши желания и задумки.</span></div>
+                        </div>
+                    </div>
+                    <div class="solution-visualization solution__block">
+                        <div class="solution-number solution-number__visualization left-number"><span>04.</span></div>
+                        <div class="solution-text-block">
+                            <div class="solution-text-block__title"><h3>3D визуализация</h3></div>
+                            <div class="solution-text-block__description"><span>Некоторые эскизы могут появиться уже в момент консультации с дизайнером, а фотореалистичные воплощения деталей интерьера позволят вам ощутить все задумки еще до начала работ.</span></div>
+                        </div>
+                        <div class="solution-photo"><img src="./public/img/visualization.jpg" alt=""></div>
+                    </div>
+                    <div class="solution-decoration solution__block">
+                        <div class="solution-number solution-number__decoration right-number"><span>05.</span></div>
+                        <div class="solution-photo fade">
+                            <img src="./public/img/slide-1.jpg" alt="">
+                            <img src="./public/img/slide-2.jpg" alt="">
+                        </div>
+                        <div class="solution-text-block">
+                            <div class="solution-text-block__title"><h3>Декорирование интерьеров</h3></div>
+                            <div class="solution-text-block__description"><span>Используя предметы декора: шторы, покрывала, картины, ковры и др., мы умеем изменить Ваше пространство и создать атмосферу Вашей индивидуальности.</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="benefits">
+                <div class="content">
+                    <h2>Преимущества работы <br> с Garret</h2>
+                    <div class="benefits-items">
+                        <div class="benefits-items__item">
+                            <div class="benefits-items__item-number">1.</div>
+                            <div class="benefits-items__item-title"><h4>Выбор мебели по образцам</h4></div>
+                            <div class="benefits-items__item-text">
+                                <p>Выбор мебели по каталогам и из наличия, по имеющимся образцам отделок во всех стилях и разных ценовых категориях.</p>
+                            </div>
+                        </div>
+                        <div class="benefits-items__item">
+                            <div class="benefits-items__item-number">2.</div>
+                            <div class="benefits-items__item-title"><h4>Бесплатная консультация дизайнера</h4></div>
+                            <div class="benefits-items__item-text">
+                                <p>Это возможность обсудить стиль вашего будущего интерьера, отделки, декоративных материалов, освещения, организацию пространства и эргономику. Также оценить проект.</p>
+                            </div>
+                        </div>
+                        <div class="benefits-items__item">
+                            <div class="benefits-items__item-number">3.</div>
+                            <div class="benefits-items__item-title"><h4>Составление сметы</h4></div>
+                            <div class="benefits-items__item-text">
+                                <p>Мастер рассчитает смету по ремонту квартиры, дома, ресторана, офиса и назовет общую стоимость всех работ, сроки выполнения, график платежей.</p>
+                            </div>
+                        </div>
+                        <div class="benefits-items__item">
+                            <div class="benefits-items__item-number">4.</div>
+                            <div class="benefits-items__item-title"><h4>Бесплатная сборка и доставка по Одессе</h4></div>
+                            <div class="benefits-items__item-text">
+                                <p>В стоимость включена сборка и доставка мебели по Одессе.</p>
+                            </div>
+                        </div>
+                        <div class="benefits-items__item">
+                            <div class="benefits-items__item-number">5.</div>
+                            <div class="benefits-items__item-title"><h4>-20% на мебель и декор</h4></div>
+                            <div class="benefits-items__item-text">
+                                <p>20 процентов скидка на мебель и предметы декора при оказании услуг от эскиза до реализации квартиры, дома.</p>
+                            </div>
+                        </div>
+                        <div class="benefits-items__item">
+                            <div class="benefits-items__item-number">6.</div>
+                            <div class="benefits-items__item-title"><h4>-10% на мебель и декор</h4></div>
+                            <div class="benefits-items__item-text">
+                                <p>10 процентов скидка на мебель при частичной реализации проекта квартиры, дома</p>
+                            </div>
+                        </div>
+                        <div class="benefits-items__item">
+                            <div class="benefits-items__item-number">7.</div>
+                            <div class="benefits-items__item-title"><h4>Персональная бригада мастеров</h4></div>
+                            <div class="benefits-items__item-text">
+                                <p>Услуги строительной бригады, которая ведет только ваш проект: ремонт квартиры, строительство дома, реконструкция.</p>
+                            </div>
+                        </div>
+                        <div class="benefits-items__item">
+                            <div class="benefits-items__item-number">8.</div>
+                            <div class="benefits-items__item-title"><h4>Лучшие цены</h4></div>
+                            <div class="benefits-items__item-text">
+                                <p>На мебель и предметы декора, а также предусмотреные скидки при сотрудничестве.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-block">
+                <div class="content">
+                    <h2>С чего начать?</h2>
+                    <div class="form-block__text">
+                        <p class="bold">Приходите в гости, наши дизайнеры помогут вам подобрать идеальное <br> решение для вашего интерьера, а также воплотить его «под ключ».</p>
+                        <p class="bold">У нас в салоне есть готовые решения, а также масса каталогов мебели <br> и декора для решения ваших задач.</p>
+                        <p>Оставить заявку и мы вам перезвоним, <br> назначим встречу, консультация дизайнер</p>
+                    </div>
+                    <form class="feedback-form" action="#" method="post" id="js-feedback-form">
+                        <div class="feedback-form__input-block">
+                            <input class="field valid vtext" type="text" name="name" id="name" placeholder="Ваше имя">
+                            <input class="field valid vphone" type="text" name="phone" id="phone" placeholder="Номер телефона">
+                        </div>
+                        <button class="btn send-request ajaxSubmit"><a class="link" href="#">Записаться на консультацию</a></button>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-success">
+                <button class="modal-success__close" id="js-success_close"></button>
+                <div class="information"><h2>Спасибо за ваш запрос</h2> <br> <p>Наши консультанты <br> в ближайшее время свяжутся <br> с вами!</p></div>
+            </div>
+
+            <div class="last-projects">
+                <div class="content">
+                    <h2>Наши последние работы</h2>
+                    <div class="last-projects__items responsive">
+                        <div class="last-projects__items-item">
+                            <a href="">
+                                <div class="last-projects__items-item__photo">
+                                    <img src="./public/img/projects/01.jpg" alt="">
+                                </div>
+                                <div class="last-projects__items-item__text">
+                                    <div class="last-projects__items-item__text-title"><span>Кухня</span></div>
+                                    <!--<div class="last-projects__items-item__text-description"><span>Тут мы воплотили всё, что только можно быол</span></div>-->
+                                </div>
+                            </a>
+                        </div>
+                        <div class="last-projects__items-item">
+                            <a href="">
+                                <div class="last-projects__items-item__photo">
+                                    <img src="./public/img/projects/01.jpg" alt="">
+                                </div>
+                                <div class="last-projects__items-item__text">
+                                    <div class="last-projects__items-item__text-title"><span>Кухня</span></div>
+                                    <!--<div class="last-projects__items-item__text-description"><span>Тут мы воплотили всё, что только можно быол</span></div>-->
+                                </div>
+                            </a>
+                        </div>
+                        <div class="last-projects__items-item">
+                            <a href="">
+                                <div class="last-projects__items-item__photo">
+                                    <img src="./public/img/projects/01.jpg" alt="">
+                                </div>
+                                <div class="last-projects__items-item__text">
+                                    <div class="last-projects__items-item__text-title"><span>Кухня</span></div>
+                                    <!--<div class="last-projects__items-item__text-description"><span>Тут мы воплотили всё, что только можно быол</span></div>-->
+                                </div>
+                            </a>
+                        </div>
+                        <div class="last-projects__items-item">
+                            <a href="">
+                                <div class="last-projects__items-item__photo">
+                                    <img src="./public/img/projects/01.jpg" alt="">
+                                </div>
+                                <div class="last-projects__items-item__text">
+                                    <div class="last-projects__items-item__text-title"><span>Кухня</span></div>
+                                    <!--<div class="last-projects__items-item__text-description"><span>Тут мы воплотили всё, что только можно быол</span></div>-->
+                                </div>
+                            </a>
+                        </div>
+                        <div class="last-projects__items-item">
+                            <a href="">
+                                <div class="last-projects__items-item__photo">
+                                    <img src="./public/img/projects/01.jpg" alt="">
+                                </div>
+                                <div class="last-projects__items-item__text">
+                                    <div class="last-projects__items-item__text-title"><span>Кухня</span></div>
+                                    <!--<div class="last-projects__items-item__text-description"><span>Тут мы воплотили всё, что только можно быол</span></div>-->
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="btn"><a class="link" href="http://garrethome.com.ua/news/" target="_blank">Все работы</a></button>
+                </div>
+            </div>
+
+            <div class="recent-additions">
+                <div class="content">
+                    <h2>Последние поступления <br> в наш <a class="addition-link link" href="http://garrethome.com.ua/" target="_blank">интернет-магазин</a></h2>
+                    <div class="recent-additions__items responsive">
+                        <div class="recent-additions__items-item">
+                            <a href="">
+                                <img src="./public/img/projects/1.jpg" alt="">
+                                <div class="project-title"><span>Кровать LA</span></div>
+                                <div class="project-price"><span>&#8364; 3,360</span></div>
+                            </a>
+                        </div>
+                        <div class="recent-additions__items-item">
+                            <a href="">
+                                <img src="./public/img/projects/1.jpg" alt="">
+                                <div class="project-title"><span>Кровать LA</span></div>
+                                <div class="project-price"><span>&#8364; 3,360</span></div>
+                            </a>
+                        </div>
+                        <div class="recent-additions__items-item">
+                            <a href="">
+                                <img src="./public/img/projects/1.jpg" alt="">
+                                <div class="project-title"><span>Кровать LA</span></div>
+                                <div class="project-price"><span>&#8364; 3,360</span></div>
+                            </a>
+                        </div>
+                        <div class="recent-additions__items-item">
+                            <a href="">
+                                <img src="./public/img/projects/1.jpg" alt="">
+                                <div class="project-title"><span>Кровать LA</span></div>
+                                <div class="project-price"><span>&#8364; 3,360</span></div>
+                            </a>
+                        </div>
+                        <div class="recent-additions__items-item">
+                            <a href="">
+                                <img src="./public/img/projects/1.jpg" alt="">
+                                <div class="project-title"><span>Кровать LA</span></div>
+                                <div class="project-price"><span>&#8364; 3,360</span></div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="btn"><a class="link" href="http://garrethome.com.ua/news/" target="_blank">Перейти в каталог</a></button>
+                </div>
+            </div>
+
+            <div class="our-partners">
+                <div class="content">
+                    <h2>Наши партнеры</h2>
+                    <div class="our-partners__tabs">
+                        <div class="our-partners__tabs-tab tab-1" id="tab-1">в Украине</div>
+                        <div class="our-partners__tabs-tab tab-2 active" id="tab-2"><span>в Италии</span></div>
+                    </div>
+                    <div class="our-partners__items" id-tab="tab-1">
+                        <div class="our-partners__items-item">
+                            <div class="our-partners__items-item__logo"><img src="./public/img/logo-1.png" alt=""></div>
+                            <div class="our-partners__items-item__title"><span>Italy <br> italian</span></div>
+                            <div class="our-partners__items-item__link"><a href="http://graffit.com/" class="link">graffit.com</a></div>
+                        </div>
+                        <div class="our-partners__items-item">
+                            <div class="our-partners__items-item__logo"><img src="./public/img/logo-2.png" alt=""></div>
+                            <div class="our-partners__items-item__title"><span>Строительная компания «ООО Укрглобалпромстрой»</span></div>
+                            <!--<div class="our-partners__items-item__link"><a href="#" class="link">globalpromstroy.com.ua</a></div>-->
+                        </div>
+                    </div>
+                    <div class="our-partners__items responsive visible"  id-tab="tab-2">
+                        <div class="our-partners__items-item"><img src="public/img/partners/1.png" alt=""></div>
+                        <div class="our-partners__items-item"><img src="public/img/partners/2.png" alt=""></div>
+                        <div class="our-partners__items-item"><img src="public/img/partners/3.png" alt=""></div>
+                        <div class="our-partners__items-item"><img src="public/img/partners/4.png" alt=""></div>
+                        <div class="our-partners__items-item"><img src="public/img/partners/5.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="find-us">
+                <div class="content">
+                    <h2>Как нас найти</h2>
+                    <div class="find-us__items">
+                        <div class="find-us__items-item">
+                            <div class="find-us__items-item__ico item__ico-1"></div>
+                            <div class="find-us__items-item__text">
+                                <div class="find-us__items-item__desc">
+                                    <p>c <span class="find-us__span-heavy">10:00</span> до <span class="find-us__span-heavy">20:00</span>
+                                        <br> без выходных</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="find-us__items-item">
+                            <div class="find-us__items-item__ico item__ico-2"></div>
+                            <div class="find-us__items-item__text">
+                                <div class="find-us__items-item__desc">
+                                    <p><span class="find-us__span-heavy">ул. Толбухина 135/2, </span> <br> МегаДом, 2 этаж, павильон 69</p>
+                                    <button class="show-map" id="js-show-map">Показать маршрут</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="find-us__items-item">
+                            <div class="find-us__items-item__ico item__ico-3"></div>
+                            <div class="find-us__items-item__text">
+                                <div class="find-us__items-item__desc">
+                                    <p>+38 (048) <span class="find-us__span-heavy">702-20-40</span> <br> <a href="mailto:info@garrethome.com.ua" class="link">info@garrethome.com.ua</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map" id="js-map">
+                <div id="map"></div>
+            </div>
+
+            <footer>
+                <div class="content">
+                    <div class="footer-top">
+                        <div class="footer-top__left">
+                            <p>Наша компания занимается интернет продажами мебели, текстиля, декора, а также сопровождение проектов “архитектура и дизайн - под ключ”.</p>
+                        </div>
+                        <div class="footer-top__right">
+                            <div class="footer-top__right-items">
+                                <div class="footer-top__right-items__item">
+                                    <nav>
+                                        <ul class="footer-nav">
+                                            <li><a class="link link-to to-about" href="#">О нас</a></li>
+                                            <li><a class="link link-to to-solution" href="#">Комплексное решение</a></li>
+                                            <li><a class="link link-to to-solution-individuality" href="#">Индивидуальный подход</a></li>
+                                            <li><a class="link link-to to-benefits" href="#">Преимущества</a></li>
+                                            <li><a class="link link-to to-last-projects" href="#">Наши работы</a></li>
+                                            <li><a class="link link-to to-partners" href="#">Наши партнеры</a></li>
+                                            <li><a class="link link-to to-contacts" href="#">Контакты</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="footer-top__right-info">
+                                <div class="footer-top__right-info__phone">
+                                    <a class="link" href="tel:+380487022049">+38 (048) <span>702-20-49</span></a>
+                                </div>
+                                <div class="footer-top__right-info__mail">
+                                    <a class="link" href="mailto:info@garrethome.com.ua">info@garrethome.com.ua</a>
+                                </div>
+
+                                <div class="footer-top__right-info__address">
+                                    Одесса, МегаДом, ул.Толбухина 135/2, <br>
+                                    2 этаж, павильон 69 <br>
+                                    c 10:00 до 20:00, без выходных
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="footer-bottom__copyright">
+                            <span>Магазин мебели GARRET © 2016</span>
+                        </div>
+                        <div class="footer-bottom__developer">
+                            <span>Разработка <a class="link" href="#">студия Март</a></span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./public/js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./public/js/bundle.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy1LnhO0sq1WlCKfLqEMtDhkqoK1Ch1mQ&callback=initMap" async defer></script>
+</body>
+</html>

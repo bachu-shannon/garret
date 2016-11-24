@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+	Options +SymLinksIfOwnerMatch
+
+	RewriteEngine on
+	RewriteRule ^send/	index.php [L,QSA]
+</IfModule>

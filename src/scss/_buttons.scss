@@ -1,0 +1,13 @@
+.btn {
+  font-family: "FiraSans-Bold", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #3e3e3e;
+  min-width: 200px;
+  height: 45px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  background: #ffd736;
+
+  @include border-radius(5px);
+}

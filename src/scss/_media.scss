@@ -1,0 +1,322 @@
+@media screen and (max-width: 1440px) {
+  .about-us::after, .about-us::before {
+    display: none;
+  }
+  .solution__block .solution-number {
+    top: 38px;
+  }
+  .solution__block .solution-number.right-number {
+    right: 0;
+  }
+  .solution__block .solution-number.left-number {
+    left: 0;
+  }
+  .solution__block .solution-number span {
+    font-size: 165px;
+    line-height: 165px;
+  }
+  .solution__block .solution-number__visualization, .solution__block .solution-number__individuality {
+    right: 0;
+  }
+  .slick-next {
+    right: -65px !important;
+  }
+  .slick-prev {
+    left: -65px !important;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .slick-prev, .slick-next {
+    top: -35px !important;
+  }
+  .slick-next {
+    right: 0 !important;
+  }
+  .slick-prev {
+    left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .benefits-items {
+    padding-left: 45px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  header .header-absolute .content .header-navigation .nav .nav-items__item .link {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  header {
+    padding-bottom: 95px;
+  }
+  header .header-absolute {
+    padding: 10px 0;
+  }
+  .header-navigation {
+    display: none;
+  }
+  .mobile-menu,
+  header .header-absolute .content .header-navigation .nav .nav-items {
+    display: block;
+  }
+  header .header-absolute .content .header-navigation .nav .nav-items__item .link {
+    border-bottom: none;
+  }
+  header .header-bottom .btn {
+    margin-top: 35px;
+  }
+  header .header-bottom {
+    margin: 240px 0 0;
+  }
+  .about-us .content .about-us__items-item .item-text {
+    font-size: 14px;
+  }
+  .about-us .content .about-title {
+    font-size: 145px;
+  }
+  .benefits::after {
+    display: none;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .our-partners__items-item__title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  h2 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .solution__block .solution-text-block__description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .form-block {
+    background-image: none;
+  }
+  .form-block__text p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  footer .footer-bottom__developer {
+    padding-right: 0;
+  }
+  footer .footer-top {
+    display: block;
+  }
+  footer .footer-top__left {
+    margin-bottom: 35px;
+  }
+  footer .footer-top__left {
+    width: 100%;
+  }
+  footer .footer-top__right {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  header .header-absolute .content .header-top_right .site-info_phone span {
+    font-size: 23px;
+  }
+  .solution__block .solution-text-block {
+    margin-top: 80px;
+  }
+  .solution__block .solution-number {
+    top: -20px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .header-top, .header-top_right {
+    display: block !important;
+    text-align: center;
+  }
+  header .header-top_right__feedback {
+    margin: 20px 0 0 !important;
+  }
+  .header-top__logo {
+    margin-bottom: 20px;
+  }
+  header .header-bottom {
+    margin: 350px 0 0;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .about-us .content .about-us__items-item,
+  .benefits-items__item {
+    width: 50%;
+  }
+  header .header-bottom__title {
+    background: #ffd736cc;
+
+    @include border-radius(5px);
+  }
+  .solution__block {
+    display: block;
+  }
+  .solution__block .solution-number {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .solution__block .solution-number span {
+    font-size: 56px;
+    line-height: 56px;
+  }
+  .solution__block .solution-text-block {
+    margin-top: 0;
+    width: 100%;
+  }
+  .solution .fade, .solution-photo > img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  h1 {
+    font-size: 26px !important;
+    line-height: 33px !important;
+  }
+  .find-us__items-item__desc .find-us__span-heavy {
+    font-size: 18px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-us .content {
+    padding: 50px 0;
+  }
+  .about-us .content .about-title {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 25px;
+    color: #1e1e1e;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .about-us .content .about-us__items {
+    position: relative;
+  }
+  .about-us .content .about-us__items-item {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .find-us__items {
+    display: block;
+  }
+  .find-us__items-item {
+    width: 100%;
+    margin-bottom: 25px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .solution__block .solution-text-block {
+    padding: 25px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .benefits-items__item {
+    width: 100%;
+    padding-right: 0;
+  }
+  .form-block__text {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .form-block .feedback-form__input-block {
+    display: block;
+  }
+  .form-block .feedback-form__input-block input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .our-partners__items.visible {
+    display: block !important;
+  }
+  .our-partners__items-item {
+    width: 100%;
+    margin-bottom: 45px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h3 {
+    font-size: 22px;
+  }
+  .our-partners__tabs-tab {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .footer-top__right, footer .footer-top__right-items__item .footer-nav, footer .footer-bottom {
+    display: block;
+  }
+  footer .footer-top__right-items__item .footer-nav li, footer .footer-top__right-info__address {
+    width: 100%;
+  }
+  footer .footer-top__right-items {
+    margin-bottom: 20px;
+  }
+  .footer-bottom__copyright {
+    margin-bottom: 15px;
+  }
+  footer .footer-top__left p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  h1 {
+    font-size: 20px !important;
+    line-height: 25px !important;
+  }
+  header .header-bottom__title span {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .solution__block {
+    display: block;
+  }
+  .solution-sofa .solution-photo .solution-sofa-items {
+    position: relative;
+  }
+  .solution-sofa .solution-photo .solution-sofa-items__item {
+    width: 100%;
+    height: auto;
+  }
+  .solution-sofa .solution-photo .solution-sofa-items__item .solution-sofa__link img {
+    display: block;
+    position: relative;
+  }
+  .solution-sofa .solution-photo > img {
+    display: none;
+  }
+  .btn {
+    font-size: 14px;
+  }
+}
